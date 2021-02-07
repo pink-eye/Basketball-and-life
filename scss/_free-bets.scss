@@ -1,0 +1,23 @@
+.free-bets {
+	margin: 45px 0px 0px 0px;
+
+	// .free-bets__title
+
+	&__title {
+		font-size: 18px;
+		font-weight: 700;
+		color: #fff;
+		line-height: 25px;
+	}
+
+	// .free-bets__paragraph
+
+	&__paragraph {
+		margin: 23px 0px 0px 0px;
+		font-size: 14px;
+		font-weight: 300;
+		color: #fff;
+		line-height: 26px;
+	}
+}
+
