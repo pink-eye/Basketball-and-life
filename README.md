@@ -1,4 +1,4 @@
-# Basketball & Life ![icon1](./img/header/icon3.png) ![icon2](./img/header/icon4.png) ![icon3](./img/header/icon5.png)
+# Basketball & Life ![icon1](./img/header/icon3.png) ![icon2](./img/header/icon4.png) ![icon3](./img/header/icon5.png) ![icon4](./img/header/icon6.png) ![icon5](./img/header/icon8.png) ![icon5](./img/header/icon1.png)
 
  :point_right:**First** page:
 [index](https://pink-eye.github.io/basketball-and-life/index.html)
