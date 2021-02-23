@@ -8,3 +8,5 @@
 
  :point_right:**Third** page: 
 [express rates](https://pink-eye.github.io/Basketball-and-life/express-rates.html)
+
+![logo](B&N_mockup.png)
