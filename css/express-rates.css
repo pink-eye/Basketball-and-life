@@ -218,6 +218,11 @@
 .header__calendar span {
   font-size: 14px;
   color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 @media (max-width: 450px) {

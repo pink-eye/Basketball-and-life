@@ -205,7 +205,7 @@
 		flex: 0 0 auto;
 	}
 
-	&__calendar{
+	&__calendar {
 		position: relative;
 		cursor: pointer;
 
@@ -219,16 +219,20 @@
 				}
 			}
 		}
-		
+
 		span {
 			font-size: 14px;
 			color: #fff;
+			position: absolute;
+			top: 50%;
+			left: 70px;
+
+			transform: translateY(-50%);
 
 			@media (max-width: 450px) {
-				display: none;	
+				display: none;
 			}
 		}
-
 	}
 
 	&__calendar-icon {
@@ -245,9 +249,8 @@
 			left: 50%;
 			transform: translateY(-50%) translateX(-50%);
 		}
-
 	}
-	
+
 	&__date {
 		margin: 0px 7px 0px 0px;
 		border: 0;
@@ -261,7 +264,7 @@
 		height: 100%;
 		visibility: hidden;
 		user-select: none;
-		
+
 		@media (max-width: 450px) {
 			margin: 0;
 			font-size: 0;
@@ -270,7 +273,6 @@
 		&._active {
 			background: var(--dark-red);
 		}
-
 	}
 
 	&__btn {
