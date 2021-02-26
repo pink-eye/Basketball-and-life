@@ -205,11 +205,24 @@
 .header__calendar {
   position: relative;
   cursor: pointer;
+  background-color: var(--red);
+  border-radius: 5px;
 }
 
 @media (min-width: 993px) {
   .header__calendar:hover .header__date {
     background: var(--dark-red);
+  }
+}
+
+.header__calendar span {
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (max-width: 450px) {
+  .header__calendar span {
+    display: none;
   }
 }
 
@@ -244,6 +257,11 @@
   font-size: 14px;
   width: 100%;
   height: 100%;
+  visibility: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 @media (max-width: 450px) {
