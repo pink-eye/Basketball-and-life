@@ -70,11 +70,13 @@
 	margin: 15px 0px;
 	height: 32px;
 	position: relative;
+	overflow: auto;
 
 	&__list {
 		display: flex;
 		align-items: center;
 		white-space: nowrap;
+		overflow-y: hidden;
 	}
 
 	// .breadcumbs-main__item

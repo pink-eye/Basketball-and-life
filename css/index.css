@@ -663,6 +663,7 @@
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     row-gap: 15px;
+    width: 100%;
   }
 }
 
@@ -717,6 +718,18 @@
   line-height: 21px;
 }
 
+@media (max-width: 500px) {
+  .bets-main__prediction {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .bets-main__empty {
+    width: 100%;
+  }
+}
+
 .bets-main__coefficient {
   min-width: 59px;
   font-size: 14px;
@@ -730,6 +743,12 @@
 @media (min-width: 993px) {
   .bets-main__coefficient:before {
     background-color: var(--dark-blue) !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .bets-main__coefficient {
+    width: 100%;
   }
 }
 
@@ -781,6 +800,12 @@
 @media (max-width: 900px) {
   .bets-main__btn {
     margin: 8px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bets-main__btn {
+    width: 100%;
   }
 }
 

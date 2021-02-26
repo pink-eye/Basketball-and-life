@@ -484,6 +484,7 @@
   margin: 15px 0px;
   height: 32px;
   position: relative;
+  overflow: auto;
 }
 
 .breadcumbs-main__list {
@@ -494,6 +495,7 @@
       -ms-flex-align: center;
           align-items: center;
   white-space: nowrap;
+  overflow-y: hidden;
 }
 
 .breadcumbs-main__item {
